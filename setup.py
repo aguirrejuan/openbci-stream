@@ -31,7 +31,7 @@ setup(
                       'kafka_python',
                       'rpyc',
                       'netifaces',
-                      'nmap',
+                      'python-nmap',
                       'pyserial',
                       'systemd_service',
                       ],

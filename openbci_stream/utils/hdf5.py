@@ -79,7 +79,7 @@ except Exception as e:
     logging.warning("'pyedflib' is needed for export to EDF")
     logging.warning(e)
 # Custom type var
-timestamp_ = TypeVar('timesamp', float, np.float)
+timestamp_ = TypeVar('timesamp', float, np.float64)
 
 mne.set_log_level('CRITICAL')
 
